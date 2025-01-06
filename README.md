@@ -1,109 +1,45 @@
-# Portofolio V5
-Halo semuanya!
-Perkenalkan, saya Mahendra Gawande, dan pada kesempatan kali ini, saya ingin berbagi proyek website portofolio yang telah saya kembangkan.
+# mahendra portfolio
+Hi everyone!
+I’m Mahendra Gawande, and I’m excited to share my Portfolio Website Project.
 
-Tech Stack yang digunakan:
-- ReactJS
-- Tailwind CSS
-- AOS
-- Firebase
-- Framer Motion
-- Lucide
-- Material UI
-- SweetAlert2
+Tech Stack Used:
+ReactJS: For building the user interface.
+Tailwind CSS: For styling and responsive design.
+AOS: For scroll animations.
+Firebase: For backend services like database and hosting.
+Framer Motion: For animations and transitions.
+Lucide: For modern and customizable icons.
+Material UI: For additional UI components.
+SweetAlert2: For elegant alert dialogs.
+Project Details
+Running the Project
+Clone the repository:
 
-Link Website:
-https://www.eki.my.id/
+bash
+Copy code
+git clone https://github.com/MahendraGawande/Portfolio_V5.git  
+Install dependencies:
 
-We would appreciate it if you would like to use this project, please include our credit in your use. Thank You! 🙏
+bash
+Copy code
+npm install  
+(Or, if there are compatibility issues):
 
-# Tutorial Menjalankan Project
+bash
+Copy code
+npm install --legacy-peer-deps  
+Start the development server:
 
-Berikut ini adalah panduan sederhana untuk menjalankan project ini.
+bash
+Copy code
+npm run dev  
+View in the browser:
+Use the URL displayed in the terminal.
 
-## Persiapan
+Building for Production
+To create a production-ready build:
 
-Pastikan Anda sudah menginstal:
-
-- **Node.js** 
-
-## Langkah-Langkah Menjalankan Project
-
-1. **Download project ini:**
-
-   ```bash
-   git clone https://github.com/Mahendra Gawande/Portofolio_V5.git
-   ```
-
-2. **Install semua kebutuhan:**
-
-   ```bash
-   npm install
-   ```
-   atau dengan cara
-   
-    ```bash
-   npm install --legacy-peer-deps
-   ```
-
-4. **Jalankan project:**
-   
-   ```bash
-   npm run dev
-   ```
-
-6. **Buka di browser:**
-
-   Akses aplikasi di browser Anda melalui link yang muncul di terminal.
-
-## Membuat Versi Siap Produksi
-
-Untuk membuat versi siap produksi (production build):
-
-1. Jalankan perintah build:
-
-   ```bash
-   npm run build
-   ```
-
-2. File hasil build akan tersimpan di folder `dist`. Anda dapat mengunggah folder ini ke server hosting Anda.
-
-## Catatan
-
-Jika ada masalah saat menjalankan project, pastikan:
-
-- Node.js sudah terinstal dengan benar.
-- Anda berada di folder project yang benar.
-- Semua kebutuhan terinstal tanpa error.
-
-## Konfigurasi Firebase
-
-Untuk melakukan konfigurasi Firebase dalam project ini, ikuti langkah berikut:
-
-1. **Tambahkan Firebase ke Project:**
-   - Buka [Firebase Console](https://console.firebase.google.com/).
-   - Buat project baru atau gunakan project yang sudah ada.
-
-2. **Pilih Firestore Database**
-   - Create Database
-
-3. **Pergi Ke Project Setting**
-    - Klik pada bagian : ![Screenshot 2024-12-30 214204](https://github.com/user-attachments/assets/43243cad-b414-4dd9-8793-d15c401c82fe)
-    - Nanti copy isi firebas confignya ![image](https://github.com/user-attachments/assets/6d0e158c-1ae0-40c1-8b41-9e53a1c4ccbb)
-
-4. **Pergi Ke Rules**
-   - Ubah rulesnya jadi true
-
-5. Sesuaikan Struktur Collection seperti gambar berikut
-  ![Screenshot 2025-01-03 001341](https://github.com/user-attachments/assets/38580122-08a4-4499-a8fd-0f253652a239)
-![Screenshot 2025-01-03 001410](https://github.com/user-attachments/assets/d563d7ad-f1ab-46ff-8185-640dcebd0363)
-
-6. **Buka file firebase.js dan firebase-comment.js** 
-   - Ganti isi firebaseConfig dengan config firebase anda
-
-
-
-    
-      
-
-
+Run the build command:
+bash
+Copy code
+npm run build  
