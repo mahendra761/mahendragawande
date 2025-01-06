@@ -1,4 +1,4 @@
-# mahendra portfolio
+# Mahendra Portfolio
 Hi everyone!
 I’m Mahendra Gawande, and I’m excited to share my Portfolio Website Project.
 
